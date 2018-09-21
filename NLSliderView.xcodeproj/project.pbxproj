@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B2A127F2152658400EBF533 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A127E2152658400EBF533 /* AppDelegate.m */; };
+		8B2A12822152658400EBF533 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A12812152658400EBF533 /* ViewController.m */; };
+		8B2A12852152658400EBF533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2A12832152658400EBF533 /* Main.storyboard */; };
+		8B2A12872152658600EBF533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2A12862152658600EBF533 /* Assets.xcassets */; };
+		8B2A128A2152658600EBF533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2A12882152658600EBF533 /* LaunchScreen.storyboard */; };
+		8B2A128D2152658600EBF533 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A128C2152658600EBF533 /* main.m */; };
+		8B6D88D42154951A00161379 /* NLSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D88D32154951A00161379 /* NLSliderView.m */; };
+		EB368EEF9B04E9B0A500345B /* libPods-NLSliderView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E15EEFBCD0300A0B91E8D4 /* libPods-NLSliderView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		404A8052A218F8BE24915D1B /* Pods-NLSliderView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NLSliderView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NLSliderView/Pods-NLSliderView.debug.xcconfig"; sourceTree = "<group>"; };
+		45E15EEFBCD0300A0B91E8D4 /* libPods-NLSliderView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NLSliderView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAECCF128A08E1C7202A330 /* Pods-NLSliderView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NLSliderView.release.xcconfig"; path = "Pods/Target Support Files/Pods-NLSliderView/Pods-NLSliderView.release.xcconfig"; sourceTree = "<group>"; };
+		8B2A127A2152658400EBF533 /* NLSliderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NLSliderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2A127D2152658400EBF533 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B2A127E2152658400EBF533 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B2A12802152658400EBF533 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B2A12812152658400EBF533 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B2A12842152658400EBF533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B2A12862152658600EBF533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B2A12892152658600EBF533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B2A128B2152658600EBF533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2A128C2152658600EBF533 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B6D88D22154951A00161379 /* NLSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLSliderView.h; sourceTree = "<group>"; };
+		8B6D88D32154951A00161379 /* NLSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLSliderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B2A12772152658400EBF533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB368EEF9B04E9B0A500345B /* libPods-NLSliderView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8266666A274930AC16A578AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				404A8052A218F8BE24915D1B /* Pods-NLSliderView.debug.xcconfig */,
+				4CAECCF128A08E1C7202A330 /* Pods-NLSliderView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B2A12712152658400EBF533 = {
+			isa = PBXGroup;
+			children = (
+				8B2A127C2152658400EBF533 /* NLSliderView */,
+				8B2A127B2152658400EBF533 /* Products */,
+				8266666A274930AC16A578AD /* Pods */,
+				E560EB89F1B860578E5C07BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B2A127B2152658400EBF533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B2A127A2152658400EBF533 /* NLSliderView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B2A127C2152658400EBF533 /* NLSliderView */ = {
+			isa = PBXGroup;
+			children = (
+				8B6D88D12154951A00161379 /* NLSliderView */,
+				8B2A127D2152658400EBF533 /* AppDelegate.h */,
+				8B2A127E2152658400EBF533 /* AppDelegate.m */,
+				8B2A12802152658400EBF533 /* ViewController.h */,
+				8B2A12812152658400EBF533 /* ViewController.m */,
+				8B2A12832152658400EBF533 /* Main.storyboard */,
+				8B2A12862152658600EBF533 /* Assets.xcassets */,
+				8B2A12882152658600EBF533 /* LaunchScreen.storyboard */,
+				8B2A128B2152658600EBF533 /* Info.plist */,
+				8B2A128C2152658600EBF533 /* main.m */,
+			);
+			path = NLSliderView;
+			sourceTree = "<group>";
+		};
+		8B6D88D12154951A00161379 /* NLSliderView */ = {
+			isa = PBXGroup;
+			children = (
+				8B6D88D22154951A00161379 /* NLSliderView.h */,
+				8B6D88D32154951A00161379 /* NLSliderView.m */,
+			);
+			path = NLSliderView;
+			sourceTree = "<group>";
+		};
+		E560EB89F1B860578E5C07BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45E15EEFBCD0300A0B91E8D4 /* libPods-NLSliderView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B2A12792152658400EBF533 /* NLSliderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2A12902152658600EBF533 /* Build configuration list for PBXNativeTarget "NLSliderView" */;
+			buildPhases = (
+				438652AA75DB25C98A906DBE /* [CP] Check Pods Manifest.lock */,
+				8B2A12762152658400EBF533 /* Sources */,
+				8B2A12772152658400EBF533 /* Frameworks */,
+				8B2A12782152658400EBF533 /* Resources */,
+				D3C9F38F1DEEC757C69731CD /* [CP] Embed Pods Frameworks */,
+				CC2D8228FB33483DC05E59C2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NLSliderView;
+			productName = NLSliderView;
+			productReference = 8B2A127A2152658400EBF533 /* NLSliderView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B2A12722152658400EBF533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "悟空";
+				TargetAttributes = {
+					8B2A12792152658400EBF533 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 8B2A12752152658400EBF533 /* Build configuration list for PBXProject "NLSliderView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B2A12712152658400EBF533;
+			productRefGroup = 8B2A127B2152658400EBF533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B2A12792152658400EBF533 /* NLSliderView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B2A12782152658400EBF533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2A128A2152658600EBF533 /* LaunchScreen.storyboard in Resources */,
+				8B2A12872152658600EBF533 /* Assets.xcassets in Resources */,
+				8B2A12852152658400EBF533 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		438652AA75DB25C98A906DBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NLSliderView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC2D8228FB33483DC05E59C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NLSliderView/Pods-NLSliderView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C9F38F1DEEC757C69731CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NLSliderView/Pods-NLSliderView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B2A12762152658400EBF533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2A12822152658400EBF533 /* ViewController.m in Sources */,
+				8B6D88D42154951A00161379 /* NLSliderView.m in Sources */,
+				8B2A128D2152658600EBF533 /* main.m in Sources */,
+				8B2A127F2152658400EBF533 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B2A12832152658400EBF533 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B2A12842152658400EBF533 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B2A12882152658600EBF533 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B2A12892152658600EBF533 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B2A128E2152658600EBF533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B2A128F2152658600EBF533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B2A12912152658600EBF533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404A8052A218F8BE24915D1B /* Pods-NLSliderView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YH49K5S82;
+				INFOPLIST_FILE = NLSliderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NL.NLSliderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B2A12922152658600EBF533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CAECCF128A08E1C7202A330 /* Pods-NLSliderView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YH49K5S82;
+				INFOPLIST_FILE = NLSliderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NL.NLSliderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B2A12752152658400EBF533 /* Build configuration list for PBXProject "NLSliderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2A128E2152658600EBF533 /* Debug */,
+				8B2A128F2152658600EBF533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2A12902152658600EBF533 /* Build configuration list for PBXNativeTarget "NLSliderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2A12912152658600EBF533 /* Debug */,
+				8B2A12922152658600EBF533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B2A12722152658400EBF533 /* Project object */;
+}
